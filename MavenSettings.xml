@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<pluginGroups>
+		<!-- pluginGroup | Specifies a further group identifier to use for plugin 
+			lookup. <pluginGroup>com.your.plugins</pluginGroup> -->
+	</pluginGroups>
+	<servers>
+		<server>
+			<id></id>
+			<username></username>
+			<password></password>
+		</server>
+		<server>
+			<id></id>
+			<username></username>	
+			<password></password>
+		</server>
+	</servers>
+	
+	
+	<proxies>
+		<proxy>
+			<id></id>
+			<active></active>
+			<protocol></protocol>
+			<host></host>
+			<port></port>
+		</proxy>
+		<proxy>
+			<id></id>
+			<active></active>
+			<protocol></protocol>
+			<host></host>
+			<port></port>
+		</proxy>
+	</proxies>
+
+	<mirrors>
+	</mirrors>
+
+	<profiles>
+	<repositories>
+        <repository>
+          <id></id>
+          <name></name>
+          
+        	<releases>
+            <enabled></enabled>
+            <updatePolicy></updatePolicy>
+            <checksumPolicy></checksumPolicy>
+        	</releases>
+          
+        	<snapshots>
+            <enabled></enabled>
+            <updatePolicy></updatePolicy>
+            <checksumPolicy></checksumPolicy>
+        	</snapshots>
+          		<url></url>
+          		<layout></layout>
+        
+    	</repository>
+                                
+    	<repository>
+          <id></id>
+          <name></name>
+        	<releases>
+            	<enabled></enabled>
+            	<updatePolicy></updatePolicy>
+            	<checksumPolicy></checksumPolicy>
+        	</releases>
+          
+        	<snapshots>
+            	<enabled></enabled>
+            	<updatePolicy></updatePolicy>
+            	<checksumPolicy></checksumPolicy>
+        	</snapshots>
+          		<url></url>
+          		<layout></layout>
+    	</repository>
+
+ </repositories>
+	</profiles>
+</settings>
